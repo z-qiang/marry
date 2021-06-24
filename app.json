@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/wedding/wedding",
+    "pages/picture/picture",
+    "pages/map/map",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff4c91",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar":{
+    "color":"#f0a1a8",
+    "selectedColor": "#2b1216",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/wedding/wedding",
+      "iconPath": "/pages/images/invite.png",
+      "selectedIconPath": "/pages/images/invite.png",
+      "text": "邀请函"
+      },
+    {
+      "pagePath": "pages/picture/picture",
+      "iconPath": "/pages/images/marry.png",
+      "selectedIconPath": "pages/images/marry.png",
+      "text": "照片"
+    },
+    {
+      "pagePath": "pages/map/map",
+      "iconPath": "/pages/images/map.png",
+      "selectedIconPath": "/pages/images/map.png",
+      "text": "婚礼地点"
+    }
+  
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes":["audio"]
+  
+}

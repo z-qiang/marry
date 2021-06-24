@@ -1,0 +1,42 @@
+<!--pages/wedding/wedding.wxml-->
+<!-- 背景音乐 -->
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause'}}" bindtap="play" >
+  <image src="/pages/images/music_icon.png" /> 
+  <image src="/pages/images/music_play.png" />
+</view>
+<!-- 背景图片 -->
+<image class="bg" src="/pages/images/bg_1.png" />
+<!-- 内容区域 -->
+<view class="content">
+  <!-- 顶部GIF图片 -->
+  <image class="content-gif" src="/pages/images/save_the_date.gif"></image>
+  <!-- 标题 -->
+  <view class="content-title">邀请函</view>
+  <!-- 新郎和新娘合照 -->
+  <view class="content-avatar">
+    <image src="/pages/images/avatar.png"></image>
+  </view>
+  <!-- 新郎和新娘的名字 -->
+  <view class="content-info">
+      <view class="content-name-man" bindtap="callGroom">
+          <image class="image_1" src="/pages/images/tel.png"></image>
+          <view>xxxx</view>
+          <view>新郎</view>
+      </view>
+      <view class="content-wedding">
+        <image class="image_2" src="/pages/images/wedding.png"></image>
+      </view>
+      <view class="content-name-woman" bindtap="callBride">
+        <image class="image_3" src="/pages/images/tel.png" />
+        <view>xxxx</view>
+        <view>新娘</view>
+      </view>
+  </view>
+  <!-- 婚礼信息 -->
+  <view class="content-address">
+    <view>我们诚邀您来参加我们的婚礼</view>
+    <view>时间：2020年1月1号</view>
+    <view>地点：XXXXXXXX</view>
+  </view>
+</view>
+
